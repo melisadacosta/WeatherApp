@@ -1,0 +1,18 @@
+.weatherTemperature{
+    display: flex;
+    align-items: center;
+    .temperature-icon{
+        color: #ffffff;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .temperature-number{
+        color: #ffffff;
+        font-size: 40px;
+        font-family: 'Signika', sans-serif;
+        font-weight: 600;
+        margin-left: 10px;
+        padding-right: 30px;
+        border-right: 1px solid #fff;
+    }
+    }

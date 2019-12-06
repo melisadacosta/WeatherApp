@@ -1,0 +1,17 @@
+.weatherExtraInfo{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 16px;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    .humidity-container, .wind-container{
+        h5{
+            margin: 0px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+    }
+}
