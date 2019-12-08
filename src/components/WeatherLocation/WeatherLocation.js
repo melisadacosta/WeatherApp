@@ -65,7 +65,7 @@ class WeatherLocation extends React.Component {
             .then(weather_data => {
                 const data = this.getData(weather_data);
                 this.setState({ data })
-                // console.log(weather)
+                //  console.log(weather_data)
             })
     }
 
